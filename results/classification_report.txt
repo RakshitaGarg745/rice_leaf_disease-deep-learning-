@@ -1,0 +1,11 @@
+RICE LEAF DISEASE — CLASSIFICATION REPORT
+=======================================================
+                       precision    recall  f1-score   support
+
+Bacterial leaf blight      1.000     0.875     0.933         8
+           Brown spot      0.727     1.000     0.842         8
+            Leaf smut      1.000     0.750     0.857         8
+
+             accuracy                          0.875        24
+            macro avg      0.909     0.875     0.878        24
+         weighted avg      0.909     0.875     0.878        24
