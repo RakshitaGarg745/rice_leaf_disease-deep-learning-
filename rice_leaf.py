@@ -58,7 +58,7 @@ print("   Every plot will be saved there as a .png file automatically.\n")
 # *** CHANGE THIS to match your actual folder name ***
 # ==============================================================
 
-DATA_DIR = 'dataset'
+DATA_DIR = '/Users/rakshitagarg/rice_leaf_disease-deep-learning-/rice_leaf_diseases'
 
 # Safety check — tells you exactly what's found
 print("=" * 55)
