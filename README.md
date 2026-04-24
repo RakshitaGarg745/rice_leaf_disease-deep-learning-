@@ -11,12 +11,13 @@ It uses **Transfer Learning** with a pre-trained CNN to achieve high accuracy ev
 
 ---
 
-## 🧠 Model Details
+## Models Used
+The following pre-trained CNN models are implemented and compared:
 
-* **Base Model:** MobileNetV2 (pre-trained on ImageNet)
-* **Technique:** Transfer Learning + Fine-Tuning
-* **Input Size:** 224 × 224 images
-* **Framework:** TensorFlow / Keras
+MobileNetV2
+EfficientNet (B0/B1)
+ResNet50
+VGG16
 
 ---
 
@@ -54,7 +55,8 @@ rice_leaf_disease/
     ├── 03_training_curves_phase2.png
     ├── 04_confusion_matrix.png
     ├── 05_sample_prediction.png
-    └── classification_report.txt
+    ├── classification_report.txt
+    └── model_comparison.txt
 ```
 
 ---
@@ -77,6 +79,11 @@ rice_leaf_disease/
 ### Sample Prediction
 
 ![Prediction](results/05_sample_prediction.png)
+
+
+### Final Model Comparison
+
+results/model_comparison_graph.png
 
 ---
 
@@ -131,7 +138,9 @@ Actual    : Brown spot
 
 ---
 
-## 🧪 Evaluation Metrics
+## 🧪 Model Comparison
+
+# The models are compared based on:
 
 * Accuracy
 * Precision
@@ -139,9 +148,27 @@ Actual    : Brown spot
 * F1-score
 * Confusion Matrix
 
+# Example Comparison Table
+
+            Accuracy Precision Recall F1_score
+MobileNetV2  0.875   0.8889   0.875   0.8739
+ResNet50,    0.1667  0.1528   0.1667  0.1508
+VGG16        0.8333  0.8615   0.8333  0.8331
+EfficientNet 0.3333  0.1111   0.3333  0.1667
+
 ---
 
-## 💡 Key Learnings
+## Best Performing Model
+
+After comparing all models, the best performing model is:
+⭐ MobileNetV2
+Why it performed best:
+* Highest accuracy among all models
+* Better generalization on unseen data
+* Lower overfitting compared to VGG16 and ResNet50
+* More efficient (fewer parameters with better performance)
+
+## Key Parameters
 
 * Transfer Learning improves performance on small datasets
 * Fine-tuning boosts accuracy significantly
