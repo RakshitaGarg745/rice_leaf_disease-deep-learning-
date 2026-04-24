@@ -92,7 +92,7 @@ rice_leaf_disease/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/divyanshi0226/rice_leaf_disease-deep-learning-.git
+git clone https://github.com/RakshitaGarg745/rice_leaf_disease-deep-learning-.git
 cd rice_leaf_disease-deep-learning-
 ```
 
@@ -107,7 +107,7 @@ pip install tensorflow numpy matplotlib seaborn pillow scikit-learn
 Update this in `rice_leaf.py`:
 
 ```python
-DATA_DIR = "your_dataset_path_here"
+export DATA_DIR='your_dataset_path_here'
 ```
 
 Dataset structure:
