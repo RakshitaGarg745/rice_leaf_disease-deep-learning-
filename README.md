@@ -83,7 +83,7 @@ rice_leaf_disease/
 
 ### Final Model Comparison
 
-results/model_comparison_graph.png
+![Comparison_graph](results/model_comparison_graph.png)
 
 ---
 
