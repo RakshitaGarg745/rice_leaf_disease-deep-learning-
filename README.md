@@ -140,7 +140,7 @@ Actual    : Brown spot
 
 ## 🧪 Model Comparison
 
-# The models are compared based on:
+The models are compared based on:
 
 * Accuracy
 * Precision
@@ -148,13 +148,15 @@ Actual    : Brown spot
 * F1-score
 * Confusion Matrix
 
-# Example Comparison Table
+ Example Comparison Table
 
-            Accuracy Precision Recall F1_score
-MobileNetV2  0.875   0.8889   0.875   0.8739
-ResNet50,    0.1667  0.1528   0.1667  0.1508
-VGG16        0.8333  0.8615   0.8333  0.8331
-EfficientNet 0.3333  0.1111   0.3333  0.1667
+| Model          | Accuracy | Precision | Recall | F1-Score |
+|----------------|---------|----------|--------|---------|
+| MobileNetV2    | 0.8750  | 0.8889   | 0.8750 | 0.8739  |
+| ResNet50       | 0.1667  | 0.1528   | 0.1667 | 0.1508  |
+| VGG16          | 0.8333  | 0.8615   | 0.8333 | 0.8331  |
+| EfficientNet   | 0.3333  | 0.1111   | 0.3333 | 0.1667  |
+
 
 ---
 
